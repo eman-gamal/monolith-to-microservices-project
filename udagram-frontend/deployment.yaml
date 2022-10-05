@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: emanjamal/udagram-frontend:v1
+        image: emanjamal/udagram-frontend:v3
         imagePullPolicy: Always
         ports:
         - containerPort: 80
